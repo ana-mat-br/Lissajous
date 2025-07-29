@@ -1,2 +1,47 @@
+# Compilados do Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Executáveis gerados (exemplo para projetos Go)
 Lissajous
+
+# Arquivos temporários e de log
+*.log
+*.tmp
+
+# Arquivos de saída de exemplo
 out.gif
+
+# Diretórios de dependências (caso use Go vendor)
+vendor/
+
+# Configurações do GoLand/IntelliJ
+.idea/
+*.iml
+
+# Arquivos de cache do Go
+*.cache
+*.modcache
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de build e coverage
+coverage.out
+*.coverprofile
+
+# Arquivos de teste
+*.test
+
+# Ignorar arquivos de build/test criados por outros sistemas
+bin/
+obj/
+
+# Ignorar arquivos específicos do projeto que não devem ir para o repositório
+# (adicione abaixo, se necessário)
