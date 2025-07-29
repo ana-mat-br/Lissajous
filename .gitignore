@@ -15,7 +15,7 @@ Lissajous
 *.tmp
 
 # Arquivos de saída de exemplo
-out.gif
+# out.gif
 
 # Diretórios de dependências (caso use Go vendor)
 vendor/
